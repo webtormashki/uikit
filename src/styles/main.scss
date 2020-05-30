@@ -1,0 +1,36 @@
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/functions";
+@import "vendor/libs";
+@import "base/fonts";
+@import "base/general";
+@import "../blocks/modules";
+
+// 1. Ваши собственные переменные и переопределения.
+$global-link-color: #E08119;
+$global-background:rgb(8, 8, 8) ;
+$global-primary-background: #E08119;
+$global-muted-background: rgb(197, 197, 197);
+$global-secondary-background: rgb(30, 29, 44);
+.uk-position-center{
+    width: min-content;
+}
+.uk-tile{
+	width: 400px;
+	height: 250px;
+}
+.social_left{
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+
+// 2. Импортируйте стандартные переменные фреймворка и примеси.
+@import "./../../node_modules/uikit/src/scss/variables-theme.scss";
+@import "./../../node_modules/uikit/src/scss/mixins-theme.scss";
+
+// 3. Ваши хуки.
+@mixin hook-card() { color: #000; }
+
+// 4. Импорт фреймворка UIkit.
+@import "./../../node_modules/uikit/src/scss/uikit-theme.scss";
