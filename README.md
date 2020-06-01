@@ -7,9 +7,9 @@
 * Api-maps.yandex
 * Svg-анимация
 * Подписка
-* Parallax > blur uk-filter
+* Parallax > blur
 * Tooltip
-* Navbar-uk-switcher
+* Navbar-switcher
 
 ## Особенности
 * используется [UIKIT](https://github.com/uikit/uikit)
