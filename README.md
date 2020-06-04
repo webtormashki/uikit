@@ -5,8 +5,7 @@
 * Слайдшоу
 * Видеоконтент
 * Api-maps.yandex
-* Svg-анимация
-* Подписка
+* Svg
 * Parallax > blur
 * Tooltip
 * Navbar-switcher
